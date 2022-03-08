@@ -8,8 +8,9 @@ body {
     background-color: black;
     min-width: 400px;
     background-size: 100%;
-    background-image: url("/images/wallpaper2.jpg");
-    background-repeat:repeat-y
+    background-position-y: -110px;
+    background-image: url("../images/wallpaper2.jpg");
+    background-repeat:repeat-y;
     width: 100%;
     text-align: center;
 }
