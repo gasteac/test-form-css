@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+  }
+
+body {
+    background-color: black;
+    min-width: 400px;
+    background-size: 100%;
+    background-image: url("/images/wallpaper2.jpg");
+    background-repeat:repeat-y
+    width: 100%;
+    text-align: center;
+}
+
+.form__img img{
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+    align-items: center;
+}
+
+.form__img img:hover{
+    background-color: black;
+}
+
+.flex__container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color:#000000;
+    margin: 20px 200px;
+    border: 5px solid #3bbfd6;
+    outline: 4px solid white;
+    min-width: 400px;
+    opacity: 90%;
+}
+
+.form{
+    width: 100%;
+    flex: 1;
+    text-align: center;
+    padding: 30px;
+    order: 2;
+}
+
+.form__img{
+    order: 1;
+    width: 200px;
+    flex: 1;
+    padding: 30px;
+    display: flex;
+    min-width: 300px;
+    max-width: 300px;
+}
+
+.form__input{
+    width: 90%;
+    padding: 10px;
+    margin: 6px 0px;
+    background-color:#5f5f5f;
+    border: none;
+    border-bottom: 2px solid #167586;
+    outline: none;
+    min-width: 245px;
+}
+
+::placeholder{
+    color: rgb(255, 255, 255);
+}
+
+.form__input-submit{
+    width: 60%;
+    padding: 18px;
+    margin: 6px;
+    background-color:#167586;
+    border: none;
+    outline: none;
+}
+
+
+.form__input:focus{
+    background: linear-gradient(to bottom, transparent, #06505e);
+}
+
+.form textarea{
+    min-height: 150px;
+}
+
+.flex__text {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.flex__text h1{
+    color: white;
+    text-align: center;
+}
+
+.form__send{
+    display: flex;
+    justify-content: flex-end;
+    opacity: 80%;
+}
+
+.form__send-button{
+    color:#ffffff;
+    background: linear-gradient(to bottom, #148ba3,rgb(35, 123, 126));
+}
+
+.form__send-button:hover{
+    background: linear-gradient(to bottom, #06505e,rgb(102, 102, 102));
+    color:#ffffff;
+}
+
+.form__send-button:active{
+    background: linear-gradient(to bottom, #048099,rgb(165, 165, 165));
+    color:#ffffff;
+}
+
+.footer_text{
+    color: white;
+    padding: 20px;
+}
+
+.footer__flex {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    bottom: 0;
+}
+
+a{
+    text-decoration: none;
+    color: WHITE;
+}
+
+a:hover{
+    color:red
+}
+
+
+/* .rotate {
+    animation: rotation 5s infinite linear;
+    }
+
+@keyframes rotation {
+    from {
+      transform: rotate(359deg);
+    }
+    to {
+      transform: rotate(0deg);
+    }
+  } */
